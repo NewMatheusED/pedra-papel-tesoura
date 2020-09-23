@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Pedra Papel Tesoura Game</title>
+</head>
+<body>
+   <header>
+       <h1>Pedra Papel Tesoura</h1>
+   </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">User</div>
+        <div id="computer-label" class="badge">Comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div> <!--score-board-->
+
+    <div class="result">
+        <p>Escolha entre pedra, papel ou tesoura</p>
+    </div> <!--result-->
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="rock.png" width="110px" height="110px" alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="paper.png" width="110px" height="110px" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="scissors.png" width="110px" height="110px" alt="">
+        </div>
+    </div> <!--choices-->
+
+    <p id="action-message">Faça sua jogada</p>
+    <script src="app.js"></script>
+</body>
+</html>
